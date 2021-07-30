@@ -34,6 +34,7 @@ class Part3 {
         int res_arr[] = new int[50];
         for (i = 0; i < size; i++) {
             cmp = Integer.compare(arr[i], arr[(i + 3)]);   //kala jaadu
+            //below part cleaned by https://github.com/rudyrdx
             if (cmp == 0) {
                 res_arr[j] = arr[i];
                 j++;
