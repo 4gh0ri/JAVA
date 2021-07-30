@@ -4,7 +4,7 @@ import java.io.*;
 import java.lang.Integer;
 
 class Part3 {
-    // An optimized version of Bubble Sort
+    // A Classix bubble sort
     static void bubbleSort(int arr[], int n) {
         int i, j, temp;
         boolean swapped;
@@ -33,7 +33,7 @@ class Part3 {
         int cmp, temp = 0;
         int res_arr[] = new int[50];
         for (i = 0; i < size; i++) {
-            cmp = Integer.compare(arr[i], arr[(i + 3)]);
+            cmp = Integer.compare(arr[i], arr[(i + 3)]);   //kala jaadu
             if (cmp == 0) {
                 res_arr[j] = arr[i];
                 j++;
